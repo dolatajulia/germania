@@ -1,0 +1,27 @@
+.navbar {
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .logo {
+        display: flex;
+        border: red solid 1px;
+
+        .logoText {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-size: 3rem;
+                font-family: 'larken_demoblack';
+            }
+        }
+    }
+
+    .links {
+        display: flex;
+    }
+}
