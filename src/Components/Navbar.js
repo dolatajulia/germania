@@ -1,9 +1,9 @@
 import styles from "./Navbar.module.scss";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className={styles.navbar}>
-      <div className={styles.logo}>
+      <div className={styles.logo} onClick={() => props.scrollTo(props.section1)}>
         {/* svg file */}
         <div className={styles.logoText}>
           <h1>Germania</h1>
@@ -15,11 +15,11 @@ const Navbar = () => {
         </div>
       </div>
       <ul className={styles.links}>
-        <li>Oferta</li>
-        <li>O mnie</li>
-        <li>Referencje</li>
-        <li>Lokalizacja</li>
-        <li>Kontakt</li>
+        <li onClick={() => props.scrollTo(props.section2)}>oferta</li>
+        <li onClick={() => props.scrollTo(props.section3)}>o mnie</li>
+        <li onClick={() => props.scrollTo(props.section4)}>referencje</li>
+        <li onClick={() => props.scrollTo(props.section5)}>lokalizacja</li>
+        <li onClick={() => props.scrollTo(props.section6)}>kontakt</li>
       </ul>
     </div>
   );

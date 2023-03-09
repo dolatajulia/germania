@@ -187,42 +187,44 @@ html {
   font-style: normal;
 }
 
-// @font-face {
-//   font-family: "larken_demoextrabold";
-//   src: url("larkendemo-extrabold-webfont.woff2") format("woff2"),
-//     url("larkendemo-extrabold-webfont.woff") format("woff");
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "larken_demoextrabold";
+  src: url("./larken/larkendemo-extrabold-webfont.woff2") format("woff2"),
+    url("./larken/larkendemo-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: "larken_demolight";
-//   src: url("larkendemo-light-webfont.woff2") format("woff2"),
-//     url("larkendemo-light-webfont.woff") format("woff");
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "larken_demolight";
+  src: url("./larken/larkendemo-light-webfont.woff2") format("woff2"),
+    url("./larken/larkendemo-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: "larken_demomedium";
-//   src: url("larkendemo-medium-webfont.woff2") format("woff2"),
-//     url("larkendemo-medium-webfont.woff") format("woff");
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "larken_demomedium";
+  src: url("./larken/larkendemo-medium-webfont.woff2") format("woff2"),
+    url("./larken/larkendemo-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: "larken_demoregular";
-//   src: url("larkendemo-regular-webfont.woff2") format("woff2"),
-//     url("larkendemo-regular-webfont.woff") format("woff");
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "larken_demoregular";
+  src: url("./larken/larkendemo-regular-webfont.woff2") format("woff2"),
+    url("./larken/larkendemo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: "larken_demothin";
-//   src: url("larkendemo-thin-webfont.woff2") format("woff2"),
-//     url("larkendemo-thin-webfont.woff") format("woff");
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "larken_demothin";
+  src: url("./larken/larkendemo-thin-webfont.woff2") format("woff2"),
+    url("./larken/larkendemo-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+

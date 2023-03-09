@@ -5,10 +5,14 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 1rem 3rem;
+    border: red solid 1px;
+    background: none;
 
     .logo {
         display: flex;
         border: red solid 1px;
+        align-items: center;
 
         .logoText {
             display: flex;
@@ -23,5 +27,12 @@
 
     .links {
         display: flex;
+        align-items: center;
+
+        li {
+            padding: 0 1rem;
+            font-size: 1.2rem;
+            font-family: "larken_demomedium";
+        }
     }
 }
