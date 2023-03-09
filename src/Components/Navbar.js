@@ -3,15 +3,14 @@ import styles from "./Navbar.module.scss";
 const Navbar = (props) => {
   return (
     <div className={styles.navbar}>
-      <div className={styles.logo} onClick={() => props.scrollTo(props.section1)}>
-        {/* svg file */}
+      <div
+        className={styles.logo}
+        onClick={() => props.scrollTo(props.section1)}
+      >
+        <div className={styles.logoImg}></div>
         <div className={styles.logoText}>
           <h1>Germania</h1>
-          <p>
-            tłumacz przysięgły
-            <br />
-            języka niemieckiego
-          </p>
+          <p>tłumacz przysięgły języka niemieckiego</p>
         </div>
       </div>
       <ul className={styles.links}>

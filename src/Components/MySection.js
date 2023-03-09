@@ -4,7 +4,6 @@ const MySection = (props) => {
   return (
     <div className={styles.section}>
       {props.children}
-      {/* {props.image && <img src={props.image} />} */}
       {props.showArrow && (
         <button
           className={styles.downarrow}
