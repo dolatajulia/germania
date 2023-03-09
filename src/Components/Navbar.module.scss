@@ -1,3 +1,5 @@
+$red-color: #bc1818;
+
 .navbar {
   position: absolute;
   position: fixed;
@@ -5,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 2rem 5rem;
+  padding: 2rem 6rem;
   background: none;
 
   .logo {

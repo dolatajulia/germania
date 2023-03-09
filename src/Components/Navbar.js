@@ -19,6 +19,7 @@ const Navbar = (props) => {
         <li onClick={() => props.scrollTo(props.section4)}>referencje</li>
         <li onClick={() => props.scrollTo(props.section5)}>lokalizacja</li>
         <li onClick={() => props.scrollTo(props.section6)}>kontakt</li>
+        
       </ul>
     </div>
   );
