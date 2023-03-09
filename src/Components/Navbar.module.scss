@@ -13,6 +13,7 @@
         display: flex;
         border: red solid 1px;
         align-items: center;
+        cursor: pointer;
 
         .logoText {
             display: flex;
@@ -33,6 +34,7 @@
             padding: 0 1rem;
             font-size: 1.2rem;
             font-family: "larken_demomedium";
+            cursor: pointer;
         }
     }
 }

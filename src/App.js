@@ -2,6 +2,7 @@ import styles from "./App.module.scss";
 import "./App.scss";
 import Navbar from "./Components/Navbar";
 import MySection from "./Components/MySection";
+import LandingPage from "./Components/LandingPage";
 import Location from "./Components/Location";
 import Contact from "./Components/Contact";
 import { useRef } from "react";
@@ -35,7 +36,7 @@ function App(props) {
           goToSectionRef={section2}
           showArrow={true}
         >
-          <h1>Tu bedzie ogolne info</h1>
+          <LandingPage/>
         </MySection>
       </div>
       <div ref={section2}>
