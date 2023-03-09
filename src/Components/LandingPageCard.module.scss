@@ -1,0 +1,39 @@
+.container {
+  background-color: transparent;
+  display: flex;
+  height: 7rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .rotate {
+    transform: rotate(270deg);
+    font-family: "larken_demomedium";
+    font-size: 1.5rem;
+    margin-right: -2rem;
+  }
+
+  .textbox {
+    border-left: solid 6px black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+.rightarrow {
+    background-image: url('./../icons/arrow-right.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    
+}
+  }
+}
