@@ -13,13 +13,13 @@ const Navbar = (props) => {
           <p>tłumacz przysięgły języka niemieckiego</p>
         </div>
       </div>
-      <ul className={styles.links}>
+      {/* <ul className={styles.links}>
         <li onClick={() => props.scrollTo(props.section2)}>oferta</li>
         <li onClick={() => props.scrollTo(props.section3)}>o mnie</li>
         <li onClick={() => props.scrollTo(props.section4)}>referencje</li>
         <li onClick={() => props.scrollTo(props.section5)}>lokalizacja</li>
         <li onClick={() => props.scrollTo(props.section6)}>kontakt</li>
-      </ul>
+      </ul> */}
     </div>
   );
 };

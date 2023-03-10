@@ -7,12 +7,11 @@ $red-color: #bc1818;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 2rem 8rem;
+  padding: 7% 15%;
   background: none;
 
   .logo {
     display: flex;
-
     align-items: center;
     cursor: pointer;
 
@@ -38,7 +37,7 @@ $red-color: #bc1818;
 
       p {
         font-family: "Raleway", sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 0.91rem;
         text-align: center;
       }

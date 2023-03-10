@@ -1,5 +1,5 @@
 import "./App.scss";
-import './AppStyleReset.scss';
+import "./AppStyleReset.scss";
 import styles from "./App.module.scss";
 import Navbar from "./Components/Navbar";
 import MySection from "./Components/MySection";
@@ -37,7 +37,15 @@ function App() {
           goToSectionRef={section2}
           showArrow={true}
         >
-          <LandingPage/>
+          <LandingPage
+            scrollTo={scrollTo}
+            section1={section1}
+            section2={section2}
+            section3={section3}
+            section4={section4}
+            section5={section5}
+            section6={section6}
+          />
         </MySection>
       </div>
       <div ref={section2}>
