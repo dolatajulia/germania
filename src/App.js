@@ -1,5 +1,6 @@
-import styles from "./App.module.scss";
 import "./App.scss";
+import './AppStyleReset.scss';
+import styles from "./App.module.scss";
 import Navbar from "./Components/Navbar";
 import MySection from "./Components/MySection";
 import LandingPage from "./Components/LandingPage";
@@ -7,7 +8,7 @@ import Location from "./Components/Location";
 import Contact from "./Components/Contact";
 import { useRef } from "react";
 
-function App(props) {
+function App() {
   const section1 = useRef();
   const section2 = useRef();
   const section3 = useRef();
