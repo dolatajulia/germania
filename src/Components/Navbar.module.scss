@@ -7,8 +7,10 @@ $red-color: #bc1818;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 7% 15%;
+  padding: 0 15%;
   background: none;
+  margin-top: 15vh;
+  // border: red solid 1px;
 
   .logo {
     display: flex;

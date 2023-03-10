@@ -5,10 +5,10 @@ const MySection = (props) => {
     <div className={styles.section}>
       {props.children}
       {props.showArrow && (
-        <button
+        <div
           className={styles.downarrow}
           onClick={() => props.scrollTo(props.goToSectionRef)}
-        ></button>
+        ></div>
       )}
     </div>
   );
