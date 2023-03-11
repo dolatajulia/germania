@@ -6,15 +6,15 @@ const LandingPage = (props) => {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.leftbox}>
-          <h1>Jestem tlumaczem przysieglym jezyka niemieckiego.</h1>
+          <h1>??? Jestem tlumaczem przysieglym jezyka niemieckiego.</h1>
           <p>
-            Przedmiotem mojej działalności są tłumaczenia z języka niemieckiego
+            ??? Przedmiotem mojej działalności są tłumaczenia z języka niemieckiego
             na język polski, oraz z języka polskiego na język niemiecki. Moja
             oferta skierowana jest zarówno do klientów indywidualnych, jak i
             firm.
           </p>
-          <h1>Serdecznie zapraszam do skorzystania z uslug mojego biura.</h1>
-          <h2>Teresa Dolata</h2>
+          <h1>??? Serdecznie zapraszam do skorzystania z uslug mojego biura.</h1>
+          <h2>??? Teresa Dolata</h2>
         </div>
         <div className={styles.rightbox}>
           <div onClick={() => props.scrollTo(props.section2)}>

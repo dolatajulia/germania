@@ -1,11 +1,16 @@
 $red-color: #bc1818;
 
 * {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 body {
   position: relative;
+  scroll-behavior: smooth !important;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
 }
 
 
