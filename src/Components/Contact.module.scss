@@ -107,11 +107,11 @@
           padding: 0.6rem 0;
           margin-bottom: 2rem;
           resize: none;
-          height: 11rem;
         }
 
         textarea::placeholder {
           color: rgb(131, 131, 131);
+          overflow: visible;
         }
 
         input {
