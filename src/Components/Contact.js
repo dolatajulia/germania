@@ -34,23 +34,35 @@ const Contact = () => {
           </div>
         </div>
         <div className={styles.rightbox}>
-
           <form
             action="https://formsubmit.co/juliadolata007@gmail.com"
             method="POST"
           >
-            <p>Lub poprzez formularz kontaktowy:</p>
-            <textarea className={styles.message} type="text" name="Wiadomość" placeholder="Tutaj wpisz swoją wiadomość" required > </textarea>
-            <p>Podaj swoje dane kontaktowe aby umożliwić mi odpowiedź:</p>
-            <input
+            <p className={styles.title}>Lub poprzez formularz kontaktowy:</p>
+            <textarea
               type="text"
-              name="Imię i nazwisko"
-              placeholder="Imię i nazwisko"
+              name="Wiadomość"
+              placeholder="Tutaj wpisz swoją wiadomość"
               required
-            />
-            <input type="email" name="Email" placeholder="E-mail" required />
-            <input type="text" name="Numer telefonu" placeholder="Numer telefonu" />
-            <button type="submit">wyslij</button>
+            >
+              {" "}
+            </textarea>
+            <div className={styles.formbottom}>
+              <p>Podaj swoje dane kontaktowe, aby umożliwić mi odpowiedź:</p>
+              <input
+                type="text"
+                name="Imię i nazwisko"
+                placeholder="Imię i nazwisko"
+                required
+              />
+              <input type="email" name="Email" placeholder="E-mail" required />
+              <input
+                type="text"
+                name="Numer telefonu"
+                placeholder="Numer telefonu"
+              />
+              <button type="submit">wyslij</button>
+            </div>
           </form>
         </div>
       </div>
