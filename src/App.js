@@ -6,7 +6,7 @@ import MySection from "./Components/MySection";
 import LandingPage from "./Components/LandingPage";
 import Location from "./Components/Location";
 import Contact from "./Components/Contact";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 function App() {
   const section1 = useRef();
@@ -20,9 +20,45 @@ function App() {
     section.current.scrollIntoView({ behavior: "smooth" });
   }
 
+  const [blockScroll, setBlockScroll] = useState(false);
+  const [prevScroll, setPrevScroll] = useState(0);
+
+  const handleScroll = (event) => {
+    if (blockScroll) {
+      return;
+    }
+    const sections = [section1, section2, section3, section4, section5, section6]
+    sections.forEach((section, index) => {
+      if (event.currentTarget.scrollTop > 10 + section.current.offsetTop && event.currentTarget.scrollTop < -10 + section.current.offsetTop + window.innerHeight) {
+        console.log('index:', index);
+        if (prevScroll < event.currentTarget.scrollTop) {
+          console.log('scroll down');
+          if (index === 5) {
+            return;
+          }
+          scrollTo(sections[index + 1]);
+          setBlockScroll(true);
+          setPrevScroll(event.currentTarget.scrollTop);
+        } if (prevScroll > event.currentTarget.scrollTop) {
+          console.log('scroll up');
+          if (index === 0) {
+            return;
+          }
+          scrollTo(sections[index - 1]);
+          setBlockScroll(true);
+          setPrevScroll(event.currentTarget.scrollTop);
+        }
+        setTimeout(() => {
+          setBlockScroll(false);
+        }, 500);
+      }
+    });
+  };
+
+
   return (
     <div className={styles.app}>
-      <div className={styles.container}>
+      <div className={styles.container} onScroll={handleScroll}>
         {/* <Navbar
           scrollTo={scrollTo}
           section1={section1}
