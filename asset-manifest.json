@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/germania/static/css/main.eb047591.css",
+    "main.js": "/germania/static/js/main.92a6c2c8.js",
+    "static/js/787.c70e8bdc.chunk.js": "/germania/static/js/787.c70e8bdc.chunk.js",
+    "static/media/contact-envelope.png": "/germania/static/media/contact-envelope.5308502ed703fafcd87e.png",
+    "static/media/paper-bckg-left.png": "/germania/static/media/paper-bckg-left.d8277e5590a2c9d9a572.png",
+    "static/media/larkendemo-extrabold-webfont.woff": "/germania/static/media/larkendemo-extrabold-webfont.aa37c1e9e5a4770f9169.woff",
+    "static/media/larkendemo-bold-webfont.woff": "/germania/static/media/larkendemo-bold-webfont.d65e1532e5b08f21dd14.woff",
+    "static/media/larkendemo-medium-webfont.woff": "/germania/static/media/larkendemo-medium-webfont.6f1aa52d7f7cfcb301e0.woff",
+    "static/media/larkendemo-regular-webfont.woff": "/germania/static/media/larkendemo-regular-webfont.b51931ba21228b72b615.woff",
+    "static/media/larkendemo-black-webfont.woff": "/germania/static/media/larkendemo-black-webfont.cd21ab32ea71c025e8c8.woff",
+    "static/media/larkendemo-light-webfont.woff": "/germania/static/media/larkendemo-light-webfont.406080ed5fb9f2dab52c.woff",
+    "static/media/larkendemo-thin-webfont.woff": "/germania/static/media/larkendemo-thin-webfont.aab28e76acb55abdf959.woff",
+    "static/media/larkendemo-extrabold-webfont.woff2": "/germania/static/media/larkendemo-extrabold-webfont.ecb7e565cb7c65779773.woff2",
+    "static/media/larkendemo-bold-webfont.woff2": "/germania/static/media/larkendemo-bold-webfont.af13facbc15d7b57134d.woff2",
+    "static/media/larkendemo-medium-webfont.woff2": "/germania/static/media/larkendemo-medium-webfont.4c267c9afd614d9e54cb.woff2",
+    "static/media/larkendemo-regular-webfont.woff2": "/germania/static/media/larkendemo-regular-webfont.53be26baf215c6fa9a91.woff2",
+    "static/media/larkendemo-black-webfont.woff2": "/germania/static/media/larkendemo-black-webfont.89bf0da0dfbe71770849.woff2",
+    "static/media/larkendemo-light-webfont.woff2": "/germania/static/media/larkendemo-light-webfont.d842939693670a9b65d5.woff2",
+    "static/media/larkendemo-thin-webfont.woff2": "/germania/static/media/larkendemo-thin-webfont.bc33a45a96909a371169.woff2",
+    "index.html": "/germania/index.html",
+    "static/media/logo-flag.svg": "/germania/static/media/logo-flag.f32c590c0120dc7a4b59.svg",
+    "main.eb047591.css.map": "/germania/static/css/main.eb047591.css.map",
+    "main.92a6c2c8.js.map": "/germania/static/js/main.92a6c2c8.js.map",
+    "787.c70e8bdc.chunk.js.map": "/germania/static/js/787.c70e8bdc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb047591.css",
+    "static/js/main.92a6c2c8.js"
+  ]
+}
