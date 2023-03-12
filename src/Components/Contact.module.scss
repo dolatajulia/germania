@@ -24,14 +24,12 @@
     background-position: center;
     height: 80%;
     width: 100%;
-    // border: solid 1px red;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
 
     .leftbox {
-      //   border: 3px solid green;
       height: 100%;
       width: 50%;
       display: flex;
@@ -60,7 +58,6 @@
     }
 
     .rightbox {
-      //   border: 3px solid green;
       height: 100%;
       width: 50%;
       display: flex;
@@ -84,6 +81,9 @@
           input {
             margin: 0;
             width: 80%;
+          }
+          input::placeholder {
+            color: rgb(131, 131, 131);
           }
 
           p {
@@ -110,9 +110,11 @@
           height: 11rem;
         }
 
+        textarea::placeholder {
+          color: rgb(131, 131, 131);
+        }
+
         input {
-          //   border: rgb(194, 194, 194) 1px solid;
-          //   border-radius: 1rem;
           border-top: black solid 1.5px;
           padding: 0.6rem 0;
           margin: 0.2rem 4rem;

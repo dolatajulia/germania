@@ -44,9 +44,7 @@ const Contact = () => {
               name="Wiadomość"
               placeholder="Tutaj wpisz swoją wiadomość"
               required
-            >
-              {" "}
-            </textarea>
+            ></textarea>
             <div className={styles.formbottom}>
               <p>Podaj swoje dane kontaktowe, aby umożliwić mi odpowiedź:</p>
               <input

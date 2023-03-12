@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import "./App.scss";
 import "./AppStyleReset.scss";
 import styles from "./App.module.scss";
@@ -6,7 +7,6 @@ import MySection from "./Components/MySection";
 import LandingPage from "./Components/LandingPage";
 import Location from "./Components/Location";
 import Contact from "./Components/Contact";
-import { useRef } from "react";
 
 function App() {
   const section1 = useRef();
