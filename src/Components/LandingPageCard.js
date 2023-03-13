@@ -1,3 +1,5 @@
+// this component is not used
+
 import styles from "./LandingPageCard.module.scss";
 
 const LandingPageCard = (props) => {
