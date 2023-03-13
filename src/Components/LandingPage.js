@@ -7,24 +7,26 @@ const LandingPage = (props) => {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.leftbox}>
-          <h1>??? Jestem tlumaczem przysieglym jezyka niemieckiego.</h1>
+          <h1>Jestem tlumaczem przysieglym jezyka niemieckiego.</h1>
           <p>
-            ??? Przedmiotem mojej działalności są tłumaczenia z języka
-            niemieckiego na język polski, oraz z języka polskiego na język
-            niemiecki. Moja oferta skierowana jest zarówno do klientów
+            Przedmiotem mojej działalności są tłumaczenia z języka niemieckiego
+            na język polski, oraz z języka polskiego na język niemiecki.
+            <br /> <br /> Moja oferta skierowana jest zarówno do klientów
             indywidualnych, jak i firm.
+            <br /> <br /> Serdecznie zapraszam do skorzystania z{"\u00A0"}uslug
+            mojego biura.
           </p>
-          <h1>
-            ??? Serdecznie zapraszam do skorzystania z uslug mojego biura.
-          </h1>
-          <h2>??? Teresa Dolata</h2>
+          <div className={styles.signature}>
+            <p>Teresa Dolata</p>
+            <p className={styles.handwriting}>Teresa Dolata</p>
+          </div>
         </div>
         <div className={styles.rightbox}>
           <div onClick={() => props.scrollTo(props.section2)}>
             <NewLandingPageCard
               number={"01"}
               name={"oferta"}
-              text={'Zapoznaj się z moją ofertą i\u00A0zasadami wyceny'}
+              text={"Zapoznaj się z moją ofertą i\u00A0zasadami wyceny"}
             />
             {/* <LandingPageCard
               name={"oferta"}
@@ -35,7 +37,7 @@ const LandingPage = (props) => {
             <NewLandingPageCard
               number={"02"}
               name={"o mnie"}
-              text={'Poznaj moje kompetencje i\u00A0uprawnienia'}
+              text={"Poznaj moje kompetencje i\u00A0uprawnienia"}
             />
             {/* <LandingPageCard
               name={"o mnie"}
