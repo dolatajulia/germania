@@ -7,6 +7,7 @@ import MySection from "./Components/MySection";
 import LandingPage from "./Components/LandingPage";
 import Location from "./Components/Location";
 import Contact from "./Components/Contact";
+import Reviews from "./Components/Reviews";
 
 function App() {
   const section1 = useRef();
@@ -23,7 +24,7 @@ function App() {
   return (
     <div className={styles.app}>
       <div className={styles.container}>
-        <Navbar
+        {/* <Navbar
           scrollTo={scrollTo}
           section1={section1}
           section2={section2}
@@ -31,7 +32,7 @@ function App() {
           section4={section4}
           section5={section5}
           section6={section6}
-        />
+        /> */}
         <div ref={section1}>
           <MySection
             scrollTo={scrollTo}
@@ -73,7 +74,7 @@ function App() {
             goToSectionRef={section5}
             showArrow={false}
           >
-            <h1>Tu będą referencje</h1>
+            <Reviews />
           </MySection>
         </div>
         <div ref={section5}>

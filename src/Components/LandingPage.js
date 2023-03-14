@@ -1,5 +1,4 @@
 import styles from "./LandingPage.module.scss";
-import LandingPageCard from "./LandingPageCard";
 import NewLandingPageCard from "./NewLandingPageCard";
 
 const LandingPage = (props) => {
@@ -28,10 +27,6 @@ const LandingPage = (props) => {
               name={"oferta"}
               text={"Zapoznaj się z moją ofertą i\u00A0zasadami wyceny"}
             />
-            {/* <LandingPageCard
-              name={"oferta"}
-              text={`Zapoznaj się z moją ofertą i\u00A0zasadami wyceny`}
-            /> */}
           </div>
           <div onClick={() => props.scrollTo(props.section3)}>
             <NewLandingPageCard
@@ -39,21 +34,13 @@ const LandingPage = (props) => {
               name={"o mnie"}
               text={"Poznaj moje kompetencje i\u00A0uprawnienia"}
             />
-            {/* <LandingPageCard
-              name={"o mnie"}
-              text={"Poznaj moje kompetencje i\u00A0uprawnienia"}
-            /> */}
           </div>
           <div onClick={() => props.scrollTo(props.section4)}>
             <NewLandingPageCard
               number={"03"}
-              name={"opinie"}
-              text={"Przeczytaj referencje moich klientów"}
+              name={"referencje"}
+              text={"Przeczytaj opinie moich klientów"}
             />
-            {/* <LandingPageCard
-              name={"opinie"}
-              text={"Przeczytaj referencje moich klientów"}
-            /> */}
           </div>
           <div onClick={() => props.scrollTo(props.section5)}>
             <NewLandingPageCard
@@ -61,10 +48,6 @@ const LandingPage = (props) => {
               name={"biuro"}
               text={"Sprawdź dokładną lokalizację mojego biura"}
             />
-            {/* <LandingPageCard
-              name={"biuro"}
-              text={"Sprawdź dokładną lokalizację mojego biura"}
-            /> */}
           </div>
           <div onClick={() => props.scrollTo(props.section6)}>
             <NewLandingPageCard
@@ -72,7 +55,6 @@ const LandingPage = (props) => {
               name={"kontakt"}
               text={"Skontaktuj się ze mną"}
             />
-            {/* <LandingPageCard name={"kontakt"} text={"Skontaktuj się ze mną"} /> */}
           </div>
         </div>
       </div>
