@@ -21,7 +21,6 @@ $red-color: #bc1818;
     margin-bottom: 5%;
 
     .leftbox {
-      // border: solid 2px red;
       height: 60%;
       padding-top: 15vh;
       padding-right: 3rem;
@@ -61,10 +60,6 @@ $red-color: #bc1818;
     font-family: "larken_demoblack";
     font-size: 2rem;
     line-height: 2.5rem;
-
-    span {
-      color: $red-color;
-    }
   }
 
   p {

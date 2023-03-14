@@ -1,6 +1,6 @@
-// https://g.page/r/CWiB1NK3dQ3IEBE/review
 import styles from "./Reviews.module.scss";
 import "./UI/Button.scss";
+import arrow from "./../icons/arrow-menu.svg";
 import ReviewsCard from "./ReviewsCard";
 
 const Reviews = () => {
@@ -17,10 +17,8 @@ const Reviews = () => {
           />
           <div className={styles.break}></div>
           <ReviewsCard
-            initials={"M. D."}
-            text={
-              "Bardzo przyjemna Tłumaczka. Tłumaczenia zawsze wykonane terminowo i wzorowo."
-            }
+            initials={"Ł. Z."}
+            text={"Bardzo szybko i profesjonalnie. Polecam."}
           />
         </div>
         <div className={styles.row}>
@@ -30,8 +28,10 @@ const Reviews = () => {
           />
           <div className={styles.break}></div>
           <ReviewsCard
-            initials={"Ł. Z."}
-            text={"Bardzo szybko i profesjonalnie. Polecam."}
+            initials={"M. M."}
+            text={
+              "Profesjonalna obsługa jak i tłumaczenie, szybko sprawnie do dogadania na każdy temat. Dziękuję, polecam "
+            }
           />
         </div>
         <div className={styles.row}>
@@ -40,21 +40,21 @@ const Reviews = () => {
             text={"Gładko, łatwo i przyjemnie."}
           />
           <div className={styles.break}></div>
+
           <ReviewsCard
-            initials={"M. M."}
+            initials={"M. D."}
             text={
-              "Profesjonalna obsługa jak i tłumaczenie, szybko sprawnie do dogadania na każdy temat. Dziękuję, polecam "
+              "Bardzo przyjemna Tłumaczka. Tłumaczenia zawsze wykonane terminowo i wzorowo."
             }
           />
         </div>
         <p>Zachęcam do podzielenia się swoją opinią!</p>
-        <a
-          className="basicbutton"
-          href="https://g.page/r/CWiB1NK3dQ3IEBE/review"
-          target="_blank"
-        >
-          Napisz opinię
-        </a>
+        <div className={`${styles.button} basicbutton`}>
+          <a href="https://g.page/r/CWiB1NK3dQ3IEBE/review" target="_blank">
+            Napisz opinię
+          </a>
+          <img src={arrow} />
+        </div>
       </div>
     </div>
   );
