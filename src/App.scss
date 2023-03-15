@@ -13,6 +13,14 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+.content {
+  padding: 0 15%;
+
+  @media (max-width: 1366px) {
+    padding: 0 5%;
+  }
+}
+
 
 
 // fonts

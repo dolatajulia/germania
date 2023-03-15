@@ -2,7 +2,7 @@ import styles from "./Navbar.module.scss";
 
 const Navbar = (props) => {
   return (
-    <div className={styles.navbar}>
+    <div className={`${styles.navbar} content`}>
       <div
         className={styles.logo}
         onClick={() => props.scrollTo(props.section1)}

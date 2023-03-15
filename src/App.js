@@ -25,7 +25,7 @@ function App() {
   return (
     <div className={styles.app}>
       <div className={styles.container}>
-        {/* <Navbar
+        <Navbar
           scrollTo={scrollTo}
           section1={section1}
           section2={section2}
@@ -33,7 +33,7 @@ function App() {
           section4={section4}
           section5={section5}
           section6={section6}
-        /> */}
+        />
         <div ref={section1}>
           <MySection
             scrollTo={scrollTo}

@@ -4,7 +4,7 @@ import NewLandingPageCard from "./NewLandingPageCard";
 const LandingPage = (props) => {
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      <div className={`${styles.content} content`}>
         <div className={styles.leftbox}>
           <h1>Jestem tlumaczem przysieglym jezyka niemieckiego.</h1>
           <p>
