@@ -1,4 +1,38 @@
-.mapcontainer {
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content {
     width: 100%;
-    height: 100vh;
+    padding: 0 15%;
+    display: flex;
+
+    .left {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    p {
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      font-size: 1.3rem;
+      line-height: 1.6rem;
+    }
+
+    h1 {
+      font-family: "larken_demoblack";
+      font-size: 1.8rem;
+      padding-bottom: 1rem;
+    }
+
+    .button {
+      margin-top: 1rem;
+      margin-right: 2rem;
+    }
   }
+}
