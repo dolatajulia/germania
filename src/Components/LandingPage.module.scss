@@ -26,7 +26,6 @@ $red-color: #bc1818;
       padding-right: 3rem;
       width: 50%;
       display: flex;
-      justify-content: space-between;
       align-items: left;
       flex-direction: column;
 
@@ -47,6 +46,7 @@ $red-color: #bc1818;
         justify-content: space-between;
         min-height: fit-content;
         height: 5rem;
+        padding-top: 1rem;
 
         .handwriting {
           font-family: "Mrs Saint Delafield", cursive;
@@ -73,6 +73,7 @@ $red-color: #bc1818;
     font-family: "larken_demoblack";
     font-size: 2rem;
     line-height: 2.5rem;
+    padding-bottom: 1rem;
 
     @media (max-width: 1024px) {
       font-size: 1.5rem;
