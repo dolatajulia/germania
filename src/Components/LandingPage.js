@@ -11,7 +11,8 @@ const LandingPage = (props) => {
             Przedmiotem mojej działalności są tłumaczenia z języka niemieckiego
             na język polski, oraz z języka polskiego na język niemiecki.
             <br /> <br /> Moja oferta skierowana jest zarówno do klientów
-            indywidualnych, jak i firm.
+            indywidualnych, jak i firm. Zlecając mi usługę kontaktują się
+            Państwo bezpośrednio z tłumaczem, bez pośredników.
             <br /> <br /> Serdecznie zapraszam do skorzystania z{"\u00A0"}uslug
             mojego biura.
           </p>

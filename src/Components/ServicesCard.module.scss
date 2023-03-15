@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+
+  img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  p {
+    padding-left: 2rem;
+  }
+
+  .red {
+    color: #bc1818;
+  }
+
+  
+
+}
