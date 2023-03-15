@@ -8,6 +8,7 @@ import LandingPage from "./Components/LandingPage";
 import Location from "./Components/Location";
 import Contact from "./Components/Contact";
 import Reviews from "./Components/Reviews";
+import Services from "./Components/Services";
 
 function App() {
   const section1 = useRef();
@@ -56,7 +57,7 @@ function App() {
             goToSectionRef={section3}
             showArrow={false}
           >
-            <h1>Tu będzie oferta</h1>
+            <Services />
           </MySection>
         </div>
         <div ref={section3}>
