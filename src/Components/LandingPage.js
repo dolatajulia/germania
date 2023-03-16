@@ -2,19 +2,21 @@ import styles from "./LandingPage.module.scss";
 import NewLandingPageCard from "./NewLandingPageCard";
 
 const LandingPage = (props) => {
+
+  const text1 =
+    "Przedmiotem mojej działalności są tłumaczenia z języka niemieckiego na język polski, oraz z\u00A0języka polskiego na język niemiecki.";
+  const text2 = 'Moja oferta skierowana jest zarówno do klientów indywidualnych, jak i firm. Zlecając mi usługę kontaktują się Państwo bezpośrednio z\u00A0tłumaczem, bez pośredników.';
+
   return (
     <div className={styles.container}>
       <div className={`${styles.content} content`}>
         <div className={styles.leftbox}>
           <h1>Jestem tlumaczem przysieglym jezyka niemieckiego.</h1>
           <p>
-            Przedmiotem mojej działalności są tłumaczenia z języka niemieckiego
-            na język polski, oraz z języka polskiego na język niemiecki.
-            <br /> <br /> Moja oferta skierowana jest zarówno do klientów
-            indywidualnych, jak i firm. Zlecając mi usługę kontaktują się
-            Państwo bezpośrednio z tłumaczem, bez pośredników.
-            <br /> <br /> Serdecznie zapraszam do skorzystania z{"\u00A0"}uslug
-            mojego biura.
+            {text1}
+            <br /> <br /> {text2}
+            <br /> <br /> Serdecznie zapraszam do skorzystania z usług mojego
+            biura.
           </p>
           <div className={styles.signature}>
             <p>Teresa Dolata</p>

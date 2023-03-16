@@ -34,8 +34,9 @@ $red-color: #bc1818;
       }
 
       @media (max-width: 1024px) {
-        text-align: center;
         width: 100%;
+        padding-right: 0;
+        padding-top: 0;
       }
 
       .signature {

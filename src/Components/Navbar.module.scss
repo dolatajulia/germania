@@ -10,10 +10,19 @@ $red-color: #bc1818;
   background: none;
   margin-top: 15vh;
 
+  @media (max-width: 1024px) {
+    margin: 0;
+    padding: 0;
+  }
+
   .logo {
     display: flex;
     align-items: center;
     cursor: pointer;
+
+    @media (max-width: 1024px) {
+      transform: scale(0.7);
+    }
 
     .logoImg {
       width: 1.8rem;

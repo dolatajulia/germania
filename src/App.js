@@ -57,7 +57,7 @@ function App() {
             goToSectionRef={section3}
             showArrow={false}
           >
-            <Services />
+            {/* <Services /> */}
           </MySection>
         </div>
         <div ref={section3}>
