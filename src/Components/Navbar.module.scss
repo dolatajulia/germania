@@ -3,12 +3,15 @@ $red-color: #bc1818;
 .navbar {
   position: absolute;
   position: fixed;
+  top: 0;
   z-index: 1;
   display: flex;
   justify-content: space-between;
   width: 100%;
   background: none;
   margin-top: 15vh;
+
+  
 
   @media (max-width: 1024px) {
     margin: 0;
@@ -19,6 +22,7 @@ $red-color: #bc1818;
     display: flex;
     align-items: center;
     cursor: pointer;
+    
 
     @media (max-width: 1024px) {
       transform: scale(0.7);

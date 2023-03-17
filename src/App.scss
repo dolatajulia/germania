@@ -15,11 +15,13 @@ html:focus-within {
 
 .content {
   padding: 0 15%;
+  position: relative;
 
   @media (max-width: 1366px) {
     padding: 0 5%;
   }
 }
+
 
 
 

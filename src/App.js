@@ -9,6 +9,7 @@ import Location from "./Components/Location";
 import Contact from "./Components/Contact";
 import Reviews from "./Components/Reviews";
 import Services from "./Components/Services";
+import About from "./Components/About";
 
 function App() {
   const section1 = useRef();
@@ -66,7 +67,7 @@ function App() {
             goToSectionRef={section4}
             showArrow={false}
           >
-            <h1>Tu będzie info o mnie</h1>
+            <About />
           </MySection>
         </div>
         <div ref={section4}>
@@ -88,9 +89,7 @@ function App() {
           </MySection>
         </div>
         <div ref={section6}>
-          <MySection showArrow={false}>
-            {/* <Contact /> */}
-          </MySection>
+          <MySection showArrow={false}>{/* <Contact /> */}</MySection>
         </div>
       </div>
     </div>
