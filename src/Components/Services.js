@@ -12,7 +12,7 @@ import icon6 from "./../icons/phone-call.png";
 const Services = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      <div className={`${styles.content} content`}>
         <h1>Oferta</h1>
         <p>Zajmuję się tłumaczeniem uwierzytelnionym dokumentów takich jak:</p>
         <div className={styles.grid}>

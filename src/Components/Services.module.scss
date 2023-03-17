@@ -5,9 +5,12 @@
   align-items: center;
   justify-content: center;
 
+  @media (max-width: 1024px) {
+    height: auto;
+  }
+
   .content {
     width: 100%;
-    padding: 0 15%;
     justify-content: flex-start;
 
     .grid {
@@ -16,6 +19,15 @@
       grid-gap: 2rem;
       width: 100%;
       padding: 3% 0;
+
+      @media (max-width: 1024px) {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+      }
     }
 
     p {
@@ -23,16 +35,25 @@
       font-weight: 400;
       font-size: 1.3rem;
       line-height: 1.6rem;
+
+      @media (max-width: 1024px) {
+        font-size: 1rem;
+        line-height: 1.3rem;
+      }
     }
 
     h1 {
       font-family: "larken_demoblack";
       font-size: 1.8rem;
       padding-bottom: 1rem;
+      @media (max-width: 1024px) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
     }
 
     .button {
-        margin-top: 2rem;
+      margin-top: 2rem;
     }
   }
 }

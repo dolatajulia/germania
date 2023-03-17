@@ -6,7 +6,8 @@ import ReviewsCard from "./ReviewsCard";
 const Reviews = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      <div className={`${styles.content} content`}>
+        <h1>Opinie</h1>
         <p>Przeczytaj opinie wystawione przez moich klientów:</p>
         <div className={styles.row}>
           <ReviewsCard
