@@ -2,6 +2,7 @@ import styles from "./Contact.module.scss";
 import email from "./../icons/email.png";
 import home from "./../icons/home.png";
 import call from "./../icons/call.png";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
@@ -64,6 +65,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

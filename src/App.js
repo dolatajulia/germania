@@ -89,7 +89,9 @@ function App() {
           </MySection>
         </div>
         <div ref={section6}>
-          <MySection showArrow={false}>{/* <Contact /> */}</MySection>
+          <MySection showArrow={false}>
+            <Contact />
+          </MySection>
         </div>
       </div>
     </div>
