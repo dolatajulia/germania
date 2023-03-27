@@ -3,7 +3,6 @@ import { useRef } from "react";
 import "./App.scss";
 import "./AppStyleReset.scss";
 import styles from "./App.module.scss";
-import Navbar from "./Components/Navbar";
 import MySection from "./Components/MySection";
 import LandingPage from "./Components/LandingPage";
 import Location from "./Components/Location";
@@ -13,8 +12,6 @@ import Services from "./Components/Services";
 import About from "./Components/About";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Button from "@mui/material/Button";
-import { positions } from "@mui/system";
 
 function App() {
   const section1 = useRef();
@@ -31,15 +28,6 @@ function App() {
   return (
     <div className={styles.app}>
       <div className={styles.container}>
-        {/* <Navbar
-          scrollTo={scrollTo}
-          section1={section1}
-          section2={section2}
-          section3={section3}
-          section4={section4}
-          section5={section5}
-          section6={section6}
-        /> */}
         <div className={styles.absolutediv}>
           <div className={styles.breakOne}></div>
           <AppBar
