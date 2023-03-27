@@ -41,7 +41,7 @@ function App() {
           section6={section6}
         /> */}
         <div className={styles.absolutediv}>
-          <div className={styles.break}></div>
+          <div className={styles.breakOne}></div>
           <AppBar
             position="sticky"
             style={{
@@ -51,6 +51,7 @@ function App() {
               paddingLeft: "15%",
               height: "fit-content",
               width: "fit-content",
+              zIndex: "2",
             }}
           >
             <Toolbar
@@ -66,6 +67,36 @@ function App() {
                   <p>tłumacz przysięgły języka niemieckiego</p>
                 </div>
               </div>
+            </Toolbar>
+          </AppBar>
+          <div className={styles.breakTwo}></div>
+          <AppBar
+            position="sticky"
+            style={{
+              backgroundColor: "transparent",
+              boxShadow: "none",
+              paddingTop: "2vh",
+              paddingRight: "15%",
+              display: "flex",
+              alignItems: "flex-end",
+              width: "100%",
+              zIndex: "1",
+              transition: "all 0.5s ease",
+            }}
+          >
+            <Toolbar
+              style={{
+                padding: "0",
+                margin: "0",
+              }}
+            >
+              <ul className={styles.links}>
+                <li onClick={() => scrollTo(section2)}>oferta</li>
+                <li onClick={() => scrollTo(section3)}>o mnie</li>
+                <li onClick={() => scrollTo(section4)}>referencje</li>
+                <li onClick={() => scrollTo(section5)}>lokalizacja</li>
+                <li onClick={() => scrollTo(section6)}>kontakt</li>
+              </ul>
             </Toolbar>
           </AppBar>
         </div>
