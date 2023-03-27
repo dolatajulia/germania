@@ -10,6 +10,10 @@ import Contact from "./Components/Contact";
 import Reviews from "./Components/Reviews";
 import Services from "./Components/Services";
 import About from "./Components/About";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import Button from "@mui/material/Button";
+import { positions } from "@mui/system";
 
 function App() {
   const section1 = useRef();
@@ -26,7 +30,7 @@ function App() {
   return (
     <div className={styles.app}>
       <div className={styles.container}>
-        <Navbar
+        {/* <Navbar
           scrollTo={scrollTo}
           section1={section1}
           section2={section2}
@@ -34,7 +38,34 @@ function App() {
           section4={section4}
           section5={section5}
           section6={section6}
-        />
+        /> */}
+        <div className={styles.absolutediv}>
+          <div className={styles.break}>
+            <h1>breakkkkk</h1>
+          </div>
+          <AppBar position="sticky" zIndex="tooltip">
+            <Toolbar>
+              <Button
+                color="inherit"
+                onClick={() => scrollTo(section2)}
+              ></Button>
+            </Toolbar>
+          </AppBar>
+        </div>
+        {/* <div className={styles.muisection}>
+          <LandingPage
+            scrollTo={scrollTo}
+            section1={section1}
+            section2={section2}
+            section3={section3}
+            section4={section4}
+            section5={section5}
+            section6={section6}
+          />
+
+          <Services />
+        </div> */}
+
         <div ref={section1}>
           <MySection
             scrollTo={scrollTo}
