@@ -1,3 +1,4 @@
+import React from "react";
 import { useRef } from "react";
 import "./App.scss";
 import "./AppStyleReset.scss";
@@ -40,32 +41,34 @@ function App() {
           section6={section6}
         /> */}
         <div className={styles.absolutediv}>
-          <div className={styles.break}>
-            <h1>breakkkkk</h1>
-          </div>
-          <AppBar position="sticky" zIndex="tooltip">
-            <Toolbar>
-              <Button
-                color="inherit"
-                onClick={() => scrollTo(section2)}
-              ></Button>
+          <div className={styles.break}></div>
+          <AppBar
+            position="sticky"
+            style={{
+              backgroundColor: "transparent",
+              boxShadow: "none",
+              paddingTop: "2vh",
+              paddingLeft: "15%",
+              height: "fit-content",
+              width: "fit-content",
+            }}
+          >
+            <Toolbar
+              style={{
+                padding: "0",
+                margin: "0",
+              }}
+            >
+              <div className={styles.logo} onClick={() => scrollTo(section1)}>
+                <div className={styles.logoImg}></div>
+                <div className={styles.logoText}>
+                  <h1>Germania</h1>
+                  <p>tłumacz przysięgły języka niemieckiego</p>
+                </div>
+              </div>
             </Toolbar>
           </AppBar>
         </div>
-        {/* <div className={styles.muisection}>
-          <LandingPage
-            scrollTo={scrollTo}
-            section1={section1}
-            section2={section2}
-            section3={section3}
-            section4={section4}
-            section5={section5}
-            section6={section6}
-          />
-
-          <Services />
-        </div> */}
-
         <div ref={section1}>
           <MySection
             scrollTo={scrollTo}

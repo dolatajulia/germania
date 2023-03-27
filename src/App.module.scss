@@ -23,13 +23,58 @@
     left: 0;
     width: 100%;
     height: 600%;
-    z-index: 1;
+    
 
-  }
+    .break {
+      height: 13vh;
+    }
 
-  .muisection {
-    height: 100vh;
-    width: 100%;
-    scroll-snap-align: center;
+    .hidden {
+      display: none;
+    }
+
+    .shown {
+      display: block;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color: black;
+      min-height: fit-content;
+
+      @media (max-width: 1024px) {
+        transform: scale(0.7);
+      }
+
+      .logoImg {
+        width: 1.8rem;
+        height: 4.41rem;
+        background-image: url("./icons/logo-flag.svg");
+        background-size: cover;
+        object-position: right;
+        background-repeat: no-repeat;
+        margin-right: 0.5rem;
+      }
+
+      .logoText {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+
+        h1 {
+          font-size: 3.5rem;
+          font-family: "larken_demoblack";
+        }
+
+        p {
+          font-family: "Raleway", sans-serif;
+          font-weight: 400;
+          font-size: 0.91rem;
+          text-align: center;
+        }
+      }
+    }
   }
 }
