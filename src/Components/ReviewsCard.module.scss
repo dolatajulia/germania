@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 
   .toprow {
     display: flex;
@@ -14,6 +14,10 @@
 
     .toprowleft {
       display: flex;
+      font-size: 0.8rem;
+      .textsmall {
+        font-size: 1rem;
+      }
       .textmini {
         font-size: 0.6rem;
         color: #a9a9a9;
@@ -27,7 +31,7 @@
 
       img {
         object-fit: contain;
-        height: 1.8rem;
+        height: 1.5rem;
 
         @media (max-width: 1024px) {
           height: 1.2rem;

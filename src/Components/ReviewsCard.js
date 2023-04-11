@@ -6,7 +6,7 @@ const ReviewsCard = (props) => {
     <div className={styles.container}>
       <div className={styles.toprow}>
         <div className={styles.toprowleft}>
-        <p>{props.initials}</p>
+        <p className={styles.textsmall}>{props.initials}</p>
         <p className={styles.textmini}>Wystawiona w Opiniach Google</p>
         </div>
         <div className={styles.stars}>
