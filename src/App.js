@@ -7,6 +7,7 @@ import MySection from "./Components/MySection";
 import LandingPage from "./Components/LandingPage";
 import Location from "./Components/Location";
 import Contact from "./Components/Contact";
+import NewContact from "./Components/NewContact";
 import Reviews from "./Components/Reviews";
 import Services from "./Components/Services";
 import About from "./Components/About";
@@ -143,7 +144,7 @@ function App() {
         </div>
         <div ref={section6}>
           <MySection showArrow={false}>
-            <Contact />
+            <NewContact />
           </MySection>
         </div>
       </div>

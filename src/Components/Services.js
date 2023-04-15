@@ -62,12 +62,6 @@ const Services = () => {
           pocztą listem poleconym na adres wskazany przez zleceniodawcę.
           Wystawiam rachunki bez naliczania podatku VAT.
         </p>
-        <div className={`${styles.button} basicbutton`}>
-          <a href="https://g.page/r/CWiB1NK3dQ3IEBE/review" target="_blank">
-            Skontaktuj się ze mną
-          </a>
-          <img src={arrow} />
-        </div>
       </div>
     </div>
   );

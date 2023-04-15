@@ -1,0 +1,113 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1024px) {
+    height: auto;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 10%;
+
+    p {
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      font-size: 1.1rem;
+      line-height: 1.4rem;
+    }
+
+    .left {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h1 {
+        font-family: "larken_demoblack";
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .contactbox {
+        display: flex;
+        align-items: center;
+        margin-top: 2.5rem;
+        // height: 5.5rem;
+        // width: 24rem;
+        
+
+        img {
+          height: 2rem;
+          width: 2rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+
+    .right {
+      width: 70%;
+      height: 100%;
+      background-image: url(./../images/contact-envelope-big.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-right: 8%;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        font-family: "Raleway", sans-serif;
+        width: 75%;
+        margin-top: 8rem;
+
+        textarea {
+          border-top: black solid 1.5px;
+          border-bottom: black solid 1.5px;
+          padding: 0.6rem 0;
+          margin: 1rem 0;
+          resize: none;
+          height: 7rem;
+          width: 100%;
+        }
+
+        .button {
+            align-self: flex-end;
+        }
+
+        textarea::placeholder {
+          color: rgb(131, 131, 131);
+          overflow: visible;
+        }
+
+        .formbottom {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+          input {
+            border-top: black solid 1.5px;
+            border-bottom: black solid 1.5px;
+            padding: 0.6rem 0;
+            margin: 1rem 0;
+            width: 30%;
+          }
+
+          input::placeholder {
+            color: rgb(131, 131, 131);
+          }
+        }
+      }
+    }
+  }
+}
